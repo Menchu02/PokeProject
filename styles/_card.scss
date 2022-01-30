@@ -1,0 +1,37 @@
+.pokemon-block {
+  box-shadow: $shadowColor;
+  border-radius: 91px;
+  background-color: $primarycColor;
+}
+.img-container {
+  text-align: center;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+.pokemon-number {
+  text-align: center;
+  font-weight: bold;
+}
+.pokemon-name {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.poke-btn {
+  margin-left: 100px;
+  margin-bottom: 24px;
+  padding: 10px;
+  background-color: $secundayColor;
+  font-weight: bold;
+  border: none;
+  border-radius: 60px;
+  color: $whiteColor;
+  font-family: 'Bebas Neue', cursive;
+
+  font-family: 'Righteous', cursive;
+  &:hover {
+    background-color: red;
+  }
+}

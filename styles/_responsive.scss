@@ -1,0 +1,6 @@
+$layout-tablet: 798px;
+@mixin tablet_responsive {
+  @media ( max-width: #{$layout-tablet}) {
+    @content;
+  }
+}
